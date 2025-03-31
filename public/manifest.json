@@ -1,11 +1,11 @@
 {
-  "name": "My Next.js PWA",
-  "short_name": "PPOPPI",
-  "description": "My PPOPPI",
-  "start_url": "/",
-  "display": "standalone",
+  "name": "ppoppi",
+  "short_name": "ppoppi",
+  "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
   "icons": [
     {
       "src": "/icons/icon-192x192.svg",

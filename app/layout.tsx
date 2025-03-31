@@ -25,6 +25,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
+      <link rel="manifest" href="/manifest.json" />
+      <link rel="icon" href="/icons/icon-192x192.svg" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
