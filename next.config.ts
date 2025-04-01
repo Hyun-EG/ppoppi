@@ -2,10 +2,12 @@ import withPWA from "next-pwa";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // reactStrictMode: true,
+  images: {
+    domains: ["openweathermap.org"], // HTTPS로 도메인 설정
+  },
 };
 
-export default withPWA({
+module.exports = withPWA({
   ...nextConfig,
   dest: "build",
 });
