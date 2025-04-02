@@ -6,6 +6,7 @@ const Header = () => {
   const navItems = [
     { nav: "홈", page: "/" },
     { nav: "날씨", page: "/weather" },
+    { nav: "버스", page: "/bus" },
   ];
   const router = useRouter();
   return (
