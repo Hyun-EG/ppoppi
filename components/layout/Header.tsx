@@ -7,6 +7,7 @@ const Header = () => {
     { nav: "홈", page: "/" },
     { nav: "날씨", page: "/weather" },
     { nav: "버스", page: "/bus" },
+    { nav: "할일", page: "/todo" },
   ];
   const router = useRouter();
   return (
